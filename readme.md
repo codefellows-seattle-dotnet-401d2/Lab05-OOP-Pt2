@@ -1,51 +1,40 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 5 : Put It All Together
-=====================================
+## Project Name
+Author: Jeff Martinez
+Version: 1.0.0 
 
-## To Submit this Assignment
-- fork this repository
-- create a new branch named `lab01-`; + `<your name>` **e.g.** `lab01-amanda`
-- write your code
-- push to your repository
-- submit a pull request to this repository
-- submit a link to your PR in canvas
-- Include a Readme.md (contents described below)
+## Overview
+This application is built to showcase the principal and importance of inheritance between classes and objects.  In this case, we are "building" a school with different types of courses.  Code Fellows serves as the base class and the breakdown of courses and their properties follows
 
-## Directions
-- Build out the class structure of Code Fellows.
-	- Think about the different roles: Students & Staff
-	- Different Tech Stacks (.NET, Python, JavaScript)
-- Create a class model using all 4 OOPs principles. 
-- Be sure to include a drawn out diagram showing the relationship between your classes
-- Comment within your code where each OOPs principle is being used
-- Create a diagram that visually shows the class structure of Code Fellows
-	- Clearly label which classes are abstract
-	- Clearly label which methods are abstract
-	- Clearly label which methods are virtual
-	- Clearly label which methods are overridden 
-	- Clearly define the access level of each of the classes
-- include your diagram in your Readme.md documentation
-- Code out each of these classes and methods into Visual Studio. 
-- Not all methods should be void (think about how you will test)
-- Console.WriteLine is acceptable to prove output to the console. 
+## Getting Started
+1. In order to build this app you must create a base class that will serve as a blueprint for your derived classes
+2. You must then create a derived class that can have the option to add more derived classes to inherit propeties from the base and current classes
+3. Then add a derived class that may serve as an object to end the path of inheritance
 
-## ReadMe
-A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
-<br />
-Your job is to
-1. tell them what it is (with context)
-2. show them what it looks like in action
-3. show them how they use it
-4. tell them any other relevant details
-<br />
+## Example
+Base Class to Derived Class setup
+![Alt text](CF-Diagram.png?raw=true "Optional Title")
 
-This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. 
-Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
+Passing Tests to check for working inheritance
+```c#
 
-<br /> Refer to the sample-README in the class repo for an example. 
-- [Reference](https://github.com/noffle/art-of-readme)
+  [Fact]
+        public void CheckCSharpInheritance()
+        {
+            Assert.Equal("Today, we learned Javascript", CSharp.TeachStudents());
+        }
 
-## Rubric
-- 7pts: Program meets all requirements described in Lab directions
-- 3pts: Code meets industry standards
+        [Fact]
+        public void CheckJavscriptInheritance()
+        {
+            Assert.Equal("Used as admission to the next class", Javascript.PassFinal());
+        }
+```
 
-- **Readme.md and unit tests required for submission. Missing readme document and tests will result in a best score of 2/10**
+## Architecture
+This application is created using ASP.NET Core
+- Language: C# 
+- Type of Applicaiton: Console Application 
+
+## Change Log
+- 12-28-2017 10:30am - Added classes and properties
+- 12-28-2017 8:oopm - Added passing Unit Tests
