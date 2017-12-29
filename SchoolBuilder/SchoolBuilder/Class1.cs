@@ -7,9 +7,9 @@ namespace SchoolBuilder
     // abstract class School
     abstract class School
     {
-        abstract public string[] StudentRoster(get; set; )
+        public string[] StudentRoster(get; set; )
 
-        abstract public string[] EmployeeRoster(get; set; )
+        public string[] EmployeeRoster(get; set; )
 
         abstract public string MailingAddress(get; set; )
 
