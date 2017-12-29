@@ -1,0 +1,11 @@
+C:\Users\jeffmartinez\source\repos\Lab05-OOP-Pt2\CodeFellows\CodeFellows\bin\Debug\netcoreapp2.0\CodeFellows.deps.json
+C:\Users\jeffmartinez\source\repos\Lab05-OOP-Pt2\CodeFellows\CodeFellows\bin\Debug\netcoreapp2.0\CodeFellows.runtimeconfig.json
+C:\Users\jeffmartinez\source\repos\Lab05-OOP-Pt2\CodeFellows\CodeFellows\bin\Debug\netcoreapp2.0\CodeFellows.runtimeconfig.dev.json
+C:\Users\jeffmartinez\source\repos\Lab05-OOP-Pt2\CodeFellows\CodeFellows\bin\Debug\netcoreapp2.0\CodeFellows.dll
+C:\Users\jeffmartinez\source\repos\Lab05-OOP-Pt2\CodeFellows\CodeFellows\obj\Debug\netcoreapp2.0\CodeFellows.csprojResolveAssemblyReference.cache
+C:\Users\jeffmartinez\source\repos\Lab05-OOP-Pt2\CodeFellows\CodeFellows\obj\Debug\netcoreapp2.0\CodeFellows.csproj.CoreCompileInputs.cache
+C:\Users\jeffmartinez\source\repos\Lab05-OOP-Pt2\CodeFellows\CodeFellows\obj\Debug\netcoreapp2.0\CodeFellows.AssemblyInfoInputs.cache
+C:\Users\jeffmartinez\source\repos\Lab05-OOP-Pt2\CodeFellows\CodeFellows\obj\Debug\netcoreapp2.0\CodeFellows.AssemblyInfo.cs
+C:\Users\jeffmartinez\source\repos\Lab05-OOP-Pt2\CodeFellows\CodeFellows\bin\Debug\netcoreapp2.0\CodeFellows.pdb
+C:\Users\jeffmartinez\source\repos\Lab05-OOP-Pt2\CodeFellows\CodeFellows\obj\Debug\netcoreapp2.0\CodeFellows.dll
+C:\Users\jeffmartinez\source\repos\Lab05-OOP-Pt2\CodeFellows\CodeFellows\obj\Debug\netcoreapp2.0\CodeFellows.pdb
