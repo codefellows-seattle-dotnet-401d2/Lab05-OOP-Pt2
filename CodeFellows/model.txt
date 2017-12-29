@@ -1,0 +1,67 @@
+Code Fellows Class Structure
+
+Branch [public/abstract]
+|  - Location
+|  - Address
+|
+|--Person [public/abstract]
+|  |  - Name [internal]
+|  |  - Birthday [protected]
+|  |  - Email [protected]
+|  |
+|  |--Student
+|  |  - DebtOwed [public]
+|  |  - IsGrad [public]
+|  |  - EnrolledClass [public]
+|  |  + Enroll() [public]
+|  |  + SubmitAssignment() [public]
+|  |
+|  |--Staff
+|     - Role [public]
+|     - AssignedClass [public]
+|     - Salary [public]
+|     + GradeAssignment() [public]
+|
+|--Course [public/abstract]
+   |  - Title [protected]
+   |  - Schedule [protected]
+   |  - IsDaytime [protected]
+   |  - Duration [protected]
+   |  - CourseNum [protected]
+   |  - Prereq [protected]
+   |  + EnrollStudent() [protected/virtual]
+   |  + AssignStaff() [protected]
+   |  + PassStudent() [protected/abstract]
+   |
+   |--201Foundations
+   |  - Title
+   |  - Duration
+   |  - Prereq
+   |  + EnrollStudent()
+   |
+   |--301Intermediate
+   |  - Title
+   |  - Duration
+   |  - Prereq
+   |  + EnrollStudent()
+   |
+   |--401NetCore
+   |  - Title
+   |  - Duration
+   |  - Prereq
+   |  + EnrollStudent()
+   |  + PassStudent()
+   |
+   |--401JavaScript
+   |  - Title
+   |  - Duration
+   |  - Prereq
+   |  + EnrollStudent()
+   |  + PassStudent()
+   |
+   |--401Python
+   |  - Title
+   |  - Duration
+   |  - Prereq
+   |  + EnrollStudent()
+   |  + PassStudent()
