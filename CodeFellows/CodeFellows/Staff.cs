@@ -14,5 +14,17 @@ namespace CodeFellows
         {
             return this.Name + " graded an assignment for " + student.Name + ".";
         }
+
+        internal override bool AttendStandUp()
+        {
+            Console.WriteLine("Attending daily standup meeting.");
+            return true;
+        }
+
+        internal override bool GoToLecture()
+        {
+            Console.WriteLine("Going to class to teach/grade assignments.");
+            return true;
+        }
     }
 }

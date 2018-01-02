@@ -10,19 +10,27 @@ namespace CodeFellows
         public bool IsGrad { get; set; }
         public string EnrolledClass { get; set; }
 
-        public Student()
+        public Student(string loc, string name, string email)
         {
-
+            Location = loc;
+            Name = name;
+            Email = email;
         }
 
-        public bool Enroll()
+        public bool Enroll(Course course)
         {
             return true;
         }
 
-        public string SubmitAssignment(string assignment)
+        internal string SubmitAssignment(string assignment)
         {
-            return this.Name + " submitted " + assignment;
+            return Name + " submitted " + assignment;
+        }
+
+        internal override bool AttendStandUp()
+        {
+            Console.WriteLine("Attending Project Week morning standup");
+            return true;
         }
     }
 }

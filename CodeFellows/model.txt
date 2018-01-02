@@ -1,26 +1,32 @@
 Code Fellows Class Structure
 
 Branch [public/abstract]
-|  - Location
-|  - Address
+|  - Location [protected]
+|  - Address [protected]
 |
 |--Person [public/abstract]
 |  |  - Name [internal]
 |  |  - Birthday [protected]
 |  |  - Email [protected]
+|  |  + TravelToCampus() [public]
+|  |  + AttendStandUp() [internal/abstract]
+|  |  + GoToLecture() [internal/virtual]
 |  |
 |  |--Student
 |  |  - DebtOwed [public]
 |  |  - IsGrad [public]
 |  |  - EnrolledClass [public]
 |  |  + Enroll() [public]
-|  |  + SubmitAssignment() [public]
+|  |  + SubmitAssignment() [internal]
+|  |  + AttendStandUp() [internal/override]
 |  |
 |  |--Staff
 |     - Role [public]
 |     - AssignedClass [public]
 |     - Salary [public]
 |     + GradeAssignment() [public]
+|     + AttendStandUp() [internal/override]
+|     + GoToLecture() [internal/override]
 |
 |--Course [public/abstract]
    |  - Title [protected]
