@@ -6,18 +6,18 @@ namespace CodeFellows
 {
     public abstract class Course : Branch
     {
-        protected string Title { get; set; }
-        protected string Schedule { get; set; }
-        protected bool IsDayTime { get; set; }
+        internal string Title { get; set; }
+        internal string Schedule { get; set; }
+        internal bool IsDayTime { get; set; }
 
-        protected virtual bool EnrollStudent(Student student)
+        internal virtual bool EnrollStudent(Student student)
         {
             Console.WriteLine("Enrolling " + student.Name + " in " + Title);
             return true;
         }
 
-        protected abstract bool AssignStaff(Staff staff);
+        internal abstract bool AssignStaff(Staff staff);
 
-        protected abstract bool PassStudent(Student student);
+        internal abstract bool PassStudent(Student student);
     }
 }

@@ -13,21 +13,23 @@ namespace CodeFellows
         public Student(string loc, string name, string email)
         {
             Location = loc;
+            if (loc == "Seattle") Address = "2901 3rd Ave";
             Name = name;
             Email = email;
         }
 
         public bool Enroll(Course course)
         {
-            return true;
+            EnrolledClass = course.Title;
+            return course.EnrollStudent(this);
         }
 
-        internal string SubmitAssignment(string assignment)
+        public string SubmitAssignment(string assignment)
         {
             return Name + " submitted " + assignment;
         }
 
-        internal override bool AttendStandUp()
+        public override bool AttendStandUp()
         {
             Console.WriteLine("Attending Project Week morning standup");
             return true;

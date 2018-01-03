@@ -7,8 +7,8 @@ namespace CodeFellows
     public abstract class Person : Branch
     {
         internal string Name { get; set; }
-        protected DateTime Birthday { get; set; }
-        protected string Email { get; set; }
+        public DateTime Birthday { get; set; }
+        internal string Email { get; set; }
 
         public bool TravelToCampus()
         {
@@ -16,9 +16,9 @@ namespace CodeFellows
             return true;
         }
 
-        internal abstract bool AttendStandUp();
+        public abstract bool AttendStandUp();
 
-        internal virtual bool GoToLecture()
+        public virtual bool GoToLecture()
         {
             Console.WriteLine("Going to class to learn");
             return true;

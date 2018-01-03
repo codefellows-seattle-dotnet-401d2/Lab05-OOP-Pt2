@@ -20,19 +20,19 @@ namespace CodeFellows
             PreReq = "301 Final Exam, 301 Final Project, Instructor Recommendation";
         }
 
-        protected override bool EnrollStudent(Student student)
+        internal override bool EnrollStudent(Student student)
         {
             Console.WriteLine("Checking the following pre-requisites: " + PreReq);
             return base.EnrollStudent(student);
         }
 
-        protected override bool AssignStaff(Staff staff)
+        internal override bool AssignStaff(Staff staff)
         {
             Console.WriteLine("Assigning " + staff.Name + " to " + CourseNum);
             return true;
         }
 
-        protected override bool PassStudent(Student student)
+        internal override bool PassStudent(Student student)
         {
             Console.WriteLine(student.Name + " to " + CourseNum);
             return true;

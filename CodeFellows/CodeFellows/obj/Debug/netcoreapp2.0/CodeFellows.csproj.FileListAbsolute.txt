@@ -6,3 +6,6 @@ C:\Users\pedra\Documents\codefellows\401\Lab05-OOP-Pt2\CodeFellows\CodeFellows\o
 C:\Users\pedra\Documents\codefellows\401\Lab05-OOP-Pt2\CodeFellows\CodeFellows\obj\Debug\netcoreapp2.0\CodeFellows.csproj.CoreCompileInputs.cache
 C:\Users\pedra\Documents\codefellows\401\Lab05-OOP-Pt2\CodeFellows\CodeFellows\obj\Debug\netcoreapp2.0\CodeFellows.AssemblyInfoInputs.cache
 C:\Users\pedra\Documents\codefellows\401\Lab05-OOP-Pt2\CodeFellows\CodeFellows\obj\Debug\netcoreapp2.0\CodeFellows.AssemblyInfo.cs
+C:\Users\pedra\Documents\codefellows\401\Lab05-OOP-Pt2\CodeFellows\CodeFellows\bin\Debug\netcoreapp2.0\CodeFellows.pdb
+C:\Users\pedra\Documents\codefellows\401\Lab05-OOP-Pt2\CodeFellows\CodeFellows\obj\Debug\netcoreapp2.0\CodeFellows.dll
+C:\Users\pedra\Documents\codefellows\401\Lab05-OOP-Pt2\CodeFellows\CodeFellows\obj\Debug\netcoreapp2.0\CodeFellows.pdb
