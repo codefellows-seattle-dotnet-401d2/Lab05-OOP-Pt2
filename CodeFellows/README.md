@@ -13,15 +13,16 @@ The following is required to run the program.
 2. The .NET desktop development workload enabled 
 
 ## Example
+Simple test in main():
 ```
-This zoo has 4 Mammals. 2 are Primates, 2 are Carnivora. Primates are Hominidae and Cebidae. Carnivora are Canidae and Felidae.
-
-Test inherited Mammal method. All output should be the same.
-Felidae object: Mammals give birth to live young.
-Canidae object: Mammals give birth to live young.
-Cebidae object: Mammals give birth to live young.
-Hominidae object: Mammals give birth to live young.
-
+Student ariel = new Student("Seattle", "Ariel Pedraza", "pedrazaa2@gmail.com");
+_401NetCore dotnet401d2 = new _401NetCore("Seattle", 10, "d2");
+ariel.Enroll(dotnet401d2);
+```
+Output:
+```
+Checking the following pre-requisites: 301 Final Exam, 301 Final Project, Instructor Recommendation
+Enrolling Ariel Pedraza in Advanced Software Development in ASP.NET Core
 ```
 ![Class Diagram](401_Lab05.png)
 ## Architecture

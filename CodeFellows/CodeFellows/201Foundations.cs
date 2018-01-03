@@ -6,10 +6,12 @@ namespace CodeFellows
 {
     public class _201Foundations : Course
     {
-        protected int Duration { get; set; }
-        protected string CourseNum { get; set; }
-        protected string PreReq { get; set; }
+        // Encapsulation: Following 3 are private because constructor sets it and do not need access elsewhere.
+        private int Duration { get; set; }
+        private string CourseNum { get; set; }
+        private string PreReq { get; set; }
 
+        // Encapsulation.
         public _201Foundations(string loc, bool isDay, int duration, string courseNum)
         {
             Location = loc;
@@ -22,18 +24,21 @@ namespace CodeFellows
             PreReq = "201 Entrance Exam";
         }
 
+        // Encapsulation, Polymorphism: Internal because is called from Person class hierarchy. Overriden because implements its own version of base method.
         internal override bool EnrollStudent(Student student)
         {
             Console.WriteLine("Checking the following pre-requisites: " + PreReq);
             return base.EnrollStudent(student);
         }
 
+        // Encapsulation, Polymorphism. Public because its called from anywhere. Override because implements its own version of base method.
         public override bool AssignStaff(Staff staff)
         {
             Console.WriteLine("Assigning " + staff.Name + " to " + CourseNum);
             return true;
         }
 
+        // Encapsulation, Polymorphism. Public because its called from anywhere. Override because implements its own version of base method.
         public override bool PassStudent(Student student)
         {
             Console.WriteLine(student.Name + " to " + CourseNum);
