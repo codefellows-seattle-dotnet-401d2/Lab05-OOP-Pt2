@@ -32,42 +32,46 @@ Branch [public/abstract]
    |  - Title [protected]
    |  - Schedule [protected]
    |  - IsDaytime [protected]
-   |  - Duration [protected]
-   |  - CourseNum [protected]
-   |  - Prereq [protected]
    |  + EnrollStudent() [protected/virtual]
-   |  + AssignStaff() [protected]
+   |  + AssignStaff() [protected/abstract]
    |  + PassStudent() [protected/abstract]
    |
    |--201Foundations
-   |  - Title
-   |  - Duration
-   |  - Prereq
-   |  + EnrollStudent()
+   |  - Duration [protected]
+   |  - CourseNum [protected]
+   |  - Prereq [protected]
+   |  + EnrollStudent() [protected/override]
+   |  + AssignStaff() [protected/override]
+   |  + PassStudent() [protected/override]
    |
    |--301Intermediate
-   |  - Title
-   |  - Duration
-   |  - Prereq
-   |  + EnrollStudent()
+   |  - Duration [protected]
+   |  - CourseNum [protected]
+   |  - Prereq [protected]
+   |  + EnrollStudent() [protected/override]
+   |  + AssignStaff() [protected/override]
+   |  + PassStudent() [protected/override]
    |
    |--401NetCore
-   |  - Title
-   |  - Duration
-   |  - Prereq
-   |  + EnrollStudent()
-   |  + PassStudent()
+   |  - Duration [protected]
+   |  - CourseNum [protected]
+   |  - Prereq [protected]
+   |  + EnrollStudent() [protected/override]
+   |  + AssignStaff() [protected/override]
+   |  + PassStudent() [protected/override]
    |
    |--401JavaScript
-   |  - Title
-   |  - Duration
-   |  - Prereq
-   |  + EnrollStudent()
-   |  + PassStudent()
+   |  - Duration [protected]
+   |  - CourseNum [protected]
+   |  - Prereq [protected]
+   |  + EnrollStudent() [protected/override]
+   |  + AssignStaff() [protected/override]
+   |  + PassStudent() [protected/override]
    |
    |--401Python
-   |  - Title
-   |  - Duration
-   |  - Prereq
-   |  + EnrollStudent()
-   |  + PassStudent()
+   |  - Duration [protected]
+   |  - CourseNum [protected]
+   |  - Prereq [protected]
+   |  + EnrollStudent() [protected/override]
+   |  + AssignStaff() [protected/override]
+   |  + PassStudent() [protected/override]

@@ -4,22 +4,22 @@ using System.Text;
 
 namespace CodeFellows
 {
-    public class _201Foundations : Course
+    public class _301Intermediate : Course
     {
         protected int Duration { get; set; }
         protected string CourseNum { get; set; }
         protected string PreReq { get; set; }
 
-        public _201Foundations(string loc, bool isDay, int duration, string courseNum)
+        public _301Intermediate(string loc, bool isDay, int duration, string courseNum)
         {
             Location = loc;
-            Title = "Foundations of Programming";
+            Title = "Intermediate Software Development";
             if (isDay) Schedule = "Mon-Fri 9am-6pm";
             else Schedule = "Mon-Thu 6:30-9:30pm Sat 9am-6pm";
             IsDayTime = isDay;
             Duration = duration;
             CourseNum = courseNum;
-            PreReq = "201 Entrance Exam";
+            PreReq = "201 Final Exam, 201 Final Project, Instructor Recommendation";
         }
 
         protected override bool EnrollStudent(Student student)
