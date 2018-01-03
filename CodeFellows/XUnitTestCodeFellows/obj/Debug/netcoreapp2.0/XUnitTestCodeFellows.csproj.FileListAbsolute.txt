@@ -1,0 +1,16 @@
+C:\Users\pedra\Documents\codefellows\401\Lab05-OOP-Pt2\CodeFellows\XUnitTestCodeFellows\obj\Debug\netcoreapp2.0\XUnitTestCodeFellows.csprojResolveAssemblyReference.cache
+C:\Users\pedra\Documents\codefellows\401\Lab05-OOP-Pt2\CodeFellows\XUnitTestCodeFellows\obj\Debug\netcoreapp2.0\XUnitTestCodeFellows.csproj.CoreCompileInputs.cache
+C:\Users\pedra\Documents\codefellows\401\Lab05-OOP-Pt2\CodeFellows\XUnitTestCodeFellows\obj\Debug\netcoreapp2.0\XUnitTestCodeFellows.AssemblyInfoInputs.cache
+C:\Users\pedra\Documents\codefellows\401\Lab05-OOP-Pt2\CodeFellows\XUnitTestCodeFellows\obj\Debug\netcoreapp2.0\XUnitTestCodeFellows.AssemblyInfo.cs
+C:\Users\pedra\Documents\codefellows\401\Lab05-OOP-Pt2\CodeFellows\XUnitTestCodeFellows\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\pedra\Documents\codefellows\401\Lab05-OOP-Pt2\CodeFellows\XUnitTestCodeFellows\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\pedra\Documents\codefellows\401\Lab05-OOP-Pt2\CodeFellows\XUnitTestCodeFellows\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\pedra\Documents\codefellows\401\Lab05-OOP-Pt2\CodeFellows\XUnitTestCodeFellows\bin\Debug\netcoreapp2.0\XUnitTestCodeFellows.deps.json
+C:\Users\pedra\Documents\codefellows\401\Lab05-OOP-Pt2\CodeFellows\XUnitTestCodeFellows\bin\Debug\netcoreapp2.0\XUnitTestCodeFellows.runtimeconfig.json
+C:\Users\pedra\Documents\codefellows\401\Lab05-OOP-Pt2\CodeFellows\XUnitTestCodeFellows\bin\Debug\netcoreapp2.0\XUnitTestCodeFellows.runtimeconfig.dev.json
+C:\Users\pedra\Documents\codefellows\401\Lab05-OOP-Pt2\CodeFellows\XUnitTestCodeFellows\bin\Debug\netcoreapp2.0\XUnitTestCodeFellows.dll
+C:\Users\pedra\Documents\codefellows\401\Lab05-OOP-Pt2\CodeFellows\XUnitTestCodeFellows\bin\Debug\netcoreapp2.0\XUnitTestCodeFellows.pdb
+C:\Users\pedra\Documents\codefellows\401\Lab05-OOP-Pt2\CodeFellows\XUnitTestCodeFellows\bin\Debug\netcoreapp2.0\CodeFellows.dll
+C:\Users\pedra\Documents\codefellows\401\Lab05-OOP-Pt2\CodeFellows\XUnitTestCodeFellows\bin\Debug\netcoreapp2.0\CodeFellows.pdb
+C:\Users\pedra\Documents\codefellows\401\Lab05-OOP-Pt2\CodeFellows\XUnitTestCodeFellows\obj\Debug\netcoreapp2.0\XUnitTestCodeFellows.dll
+C:\Users\pedra\Documents\codefellows\401\Lab05-OOP-Pt2\CodeFellows\XUnitTestCodeFellows\obj\Debug\netcoreapp2.0\XUnitTestCodeFellows.pdb
