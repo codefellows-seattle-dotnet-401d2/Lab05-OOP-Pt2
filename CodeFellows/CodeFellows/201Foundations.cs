@@ -28,13 +28,13 @@ namespace CodeFellows
             return base.EnrollStudent(student);
         }
 
-        internal override bool AssignStaff(Staff staff)
+        public override bool AssignStaff(Staff staff)
         {
             Console.WriteLine("Assigning " + staff.Name + " to " + CourseNum);
             return true;
         }
 
-        internal override bool PassStudent(Student student)
+        public override bool PassStudent(Student student)
         {
             Console.WriteLine(student.Name + " to " + CourseNum);
             return true;

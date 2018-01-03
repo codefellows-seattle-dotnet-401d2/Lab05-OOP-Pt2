@@ -4,6 +4,7 @@ using System.Text;
 
 namespace CodeFellows
 {
+    // Encapsulation and Abstraction. All classes inherit from here.
     public abstract class Branch
     {
         protected string Location { get; set; }

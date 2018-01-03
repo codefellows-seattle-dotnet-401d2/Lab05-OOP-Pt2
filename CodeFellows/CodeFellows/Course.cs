@@ -16,8 +16,8 @@ namespace CodeFellows
             return true;
         }
 
-        internal abstract bool AssignStaff(Staff staff);
+        public abstract bool AssignStaff(Staff staff);
 
-        internal abstract bool PassStudent(Student student);
+        public abstract bool PassStudent(Student student);
     }
 }

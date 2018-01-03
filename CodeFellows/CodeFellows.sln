@@ -9,7 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestCodeFellows", "XUn
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{25CD02CB-4944-43D8-90EE-6D9D885CBDA0}"
 	ProjectSection(SolutionItems) = preProject
+		401_Lab05.png = 401_Lab05.png
+		401_Lab05.xml = 401_Lab05.xml
 		model.txt = model.txt
+		README.md = README.md
+		whiteboard-1.jpg = whiteboard-1.jpg
+		whiteboard-2.jpg = whiteboard-2.jpg
+		whiteboard-3.jpg = whiteboard-3.jpg
 	EndProjectSection
 EndProject
 Global

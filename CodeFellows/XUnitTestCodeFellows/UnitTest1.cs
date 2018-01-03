@@ -41,5 +41,29 @@ namespace XUnitTestCodeFellows
             Student ariel = new Student("Seattle", "Ariel Pedraza", "pedrazaa2@gmail.com");
             Assert.True(ariel.GoToLecture());
         }
+
+        [Fact]
+        public void TestStaffGradeAssign()
+        {
+            Student ariel = new Student("Seattle", "Ariel Pedraza", "pedrazaa2@gmail.com");
+            Staff amanda = new Staff("Amanda");
+            Assert.Equal("Amanda graded an assignment for Ariel Pedraza.", amanda.GradeAssignment(ariel));
+        }
+
+        [Fact]
+        public void Test401AssignStaff()
+        {
+            _401NetCore dotnet401d2 = new _401NetCore("Seattle", 10, "d2");
+            Staff amanda = new Staff("Amanda");
+            Assert.True(dotnet401d2.AssignStaff(amanda));
+        }
+
+        [Fact]
+        public void Test401PassStudent()
+        {
+            _401NetCore dotnet401d2 = new _401NetCore("Seattle", 10, "d2");
+            Student ariel = new Student("Seattle", "Ariel Pedraza", "pedrazaa2@gmail.com");
+            Assert.True(dotnet401d2.PassStudent(ariel));
+        }
     }
 }
