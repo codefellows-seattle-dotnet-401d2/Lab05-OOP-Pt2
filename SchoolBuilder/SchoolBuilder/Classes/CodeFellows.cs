@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Newtonsoft.Json;
 
 namespace SchoolBuilder.Classes
 {
@@ -47,6 +48,15 @@ namespace SchoolBuilder.Classes
         public void NewStaff(string firstname, string lastname, string email, string phonenumber, string jobtitle)
         {
             Instructors.Add(new StaffMember(firstname, lastname, email, phonenumber, jobtitle));
+        }
+
+        public void DisplayCohort(int cohort)
+        {
+            Console.WriteLine(Classes[cohort].ClassName);
+            Console.WriteLine("Instructors:");
+            Console.WriteLine(JsonConvert.SerializeObject(Classes[cohort].Instructors));
+            Console.WriteLine("Students:");
+            Console.WriteLine(JsonConvert.SerializeObject(Classes[cohort].Students));
         }
     }
 }
