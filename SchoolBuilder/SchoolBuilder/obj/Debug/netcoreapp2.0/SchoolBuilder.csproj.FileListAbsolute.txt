@@ -6,3 +6,6 @@ M:\OneDrive\Documents\Projects\Lab05-OOP-Pt2\SchoolBuilder\SchoolBuilder\obj\Deb
 M:\OneDrive\Documents\Projects\Lab05-OOP-Pt2\SchoolBuilder\SchoolBuilder\obj\Debug\netcoreapp2.0\SchoolBuilder.csproj.CoreCompileInputs.cache
 M:\OneDrive\Documents\Projects\Lab05-OOP-Pt2\SchoolBuilder\SchoolBuilder\obj\Debug\netcoreapp2.0\SchoolBuilder.AssemblyInfoInputs.cache
 M:\OneDrive\Documents\Projects\Lab05-OOP-Pt2\SchoolBuilder\SchoolBuilder\obj\Debug\netcoreapp2.0\SchoolBuilder.AssemblyInfo.cs
+M:\OneDrive\Documents\Projects\Lab05-OOP-Pt2\SchoolBuilder\SchoolBuilder\bin\Debug\netcoreapp2.0\SchoolBuilder.pdb
+M:\OneDrive\Documents\Projects\Lab05-OOP-Pt2\SchoolBuilder\SchoolBuilder\obj\Debug\netcoreapp2.0\SchoolBuilder.dll
+M:\OneDrive\Documents\Projects\Lab05-OOP-Pt2\SchoolBuilder\SchoolBuilder\obj\Debug\netcoreapp2.0\SchoolBuilder.pdb
