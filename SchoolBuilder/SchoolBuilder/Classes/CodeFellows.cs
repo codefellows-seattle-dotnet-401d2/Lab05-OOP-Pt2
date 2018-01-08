@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 
 namespace SchoolBuilder.Classes
 {
-    class CodeFellows
+    public class CodeFellows
     {
         public List<StaffMember> Instructors { get; set; }
         public List<Student> Students { get; set; }

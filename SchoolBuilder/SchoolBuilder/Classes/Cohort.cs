@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SchoolBuilder.Classes
 {
-    class Cohort
+    public class Cohort
     {
         public string ClassName { get => Subject + Level; }
         public string Subject { get; set; }

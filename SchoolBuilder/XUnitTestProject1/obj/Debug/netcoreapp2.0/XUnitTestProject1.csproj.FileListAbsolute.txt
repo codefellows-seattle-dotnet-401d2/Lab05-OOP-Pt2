@@ -1,0 +1,4 @@
+M:\OneDrive\Documents\Projects\Lab05-OOP-Pt2\SchoolBuilder\XUnitTestProject1\obj\Debug\netcoreapp2.0\XUnitTestProject1.csprojResolveAssemblyReference.cache
+M:\OneDrive\Documents\Projects\Lab05-OOP-Pt2\SchoolBuilder\XUnitTestProject1\obj\Debug\netcoreapp2.0\XUnitTestProject1.csproj.CoreCompileInputs.cache
+M:\OneDrive\Documents\Projects\Lab05-OOP-Pt2\SchoolBuilder\XUnitTestProject1\obj\Debug\netcoreapp2.0\XUnitTestProject1.AssemblyInfoInputs.cache
+M:\OneDrive\Documents\Projects\Lab05-OOP-Pt2\SchoolBuilder\XUnitTestProject1\obj\Debug\netcoreapp2.0\XUnitTestProject1.AssemblyInfo.cs

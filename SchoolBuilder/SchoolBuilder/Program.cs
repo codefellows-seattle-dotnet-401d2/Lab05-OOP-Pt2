@@ -19,7 +19,7 @@ namespace SchoolBuilder
             Console.ReadLine();
         }
 
-        public static void PrepareTest (CodeFellows codefellows){
+        private static void PrepareTest (CodeFellows codefellows){
 
             //Create new staff
             codefellows.NewStaff("Sam", "Hamm", "SamHamm@Codefellows.Edu", "555-555-5555", "Master Laptop Jockey");

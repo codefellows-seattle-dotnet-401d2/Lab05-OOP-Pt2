@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SchoolBuilder.Classes
 {
-    class Student : Person
+    public class Student : Person
     {
         public Student(string firstname, string lastname, string email, string phonenumber)
         {
